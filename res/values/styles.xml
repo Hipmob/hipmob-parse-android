@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="biggerdefaultsize" parent="android:Theme">
+		<item name="android:textSize">18sp</item>
+	</style>
+	<style name="defaultsize" parent="android:Theme">
+		<item name="android:textSize">16sp</item>
+	</style>
+	<style name="label" parent="android:Theme">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="detaillabel" parent="android:Theme">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="detailfield" parent="android:Theme">
+		<item name="android:textSize">16sp</item>		
+	</style>
+	<style name="boldws">
+		<item  name="android:background">@android:color/white</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="spinner">
+        <item name="android:background">@android:drawable/btn_dropdown</item>
+        <item name="android:clickable">true</item>
+    </style>
+	<style name="transparent">
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+	<style name="ButtonBar">
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:paddingBottom">1dip</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="SimpleButtonBar">
+    	<item name="android:paddingTop">5dip</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+</resources>
